@@ -16,7 +16,7 @@ reg [7:0] ram[0:15];
 //writing to the RAM
 always@(posedge clk)
 begin
-    if(port_en_0 == 1 && wr_en == 1)    //check enable signal and if write enable is ON
+    if(port_en_0 == 1 && wr_en == 1)    // check enable signal and if write enable is ON
         ram[addr_in_0] <= data_in;
 end
 
