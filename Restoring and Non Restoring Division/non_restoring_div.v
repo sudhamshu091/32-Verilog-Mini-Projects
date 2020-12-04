@@ -1,106 +1,100 @@
-module non_restoring_divider(dividend,divider,ready,quotient,remainder,sign,clk);
-   input         clk;
-   input         sign;
-   input [31:0]  dividend, divider;
-   output [31:0] quotient, remainder;
-   output        ready;
+module non_restoring_div(clk, reset, Dividend, Divisor, Quotient, Remainder);
+	input clk, reset;
+	input [63:0] Dividend, Divisor;
+	output [63:0] Quotient, Remainder;
+	reg [63:0] Quotient, Remainder;
+	reg [63:0] p, a, temp;
+	integer i;
 
-   reg [31:0]    quotient, quotient_temp;
-   reg [63:0]    dividend_copy, divider_copy, diff;
-   reg           negative_output;
-   
-   wire [31:0]   remainder = (!negative_output) ?  dividend_copy[31:0] : ~dividend_copy[31:0] + 1'b1;
+	always @(posedge clk, negedge reset)
+	begin
+		if( !reset )
+		begin
+			Quotient <= 0;
+			Remainder <= 0;
+		end
+		else
+		begin
+			Quotient <= a;
+			Remainder <= p;
+		end
+	end
 
-   reg [5:0]     bit; 
-   wire          ready = !bit;
+	always @(*)
+	begin
+		a = Dividend;
+		p = 0;
 
-   initial bit = 0;
-   initial negative_output = 0;
+		for(i = 0; i < 64; i = i+1)
+		begin
+			//Shift Left carrying a's MSB into p's LSB
+			p = (p << 1) | a[63];
+			a = a << 1;
 
-   always @( posedge clk ) 
+			//Check the old value of p
+			if( p[63] ) //if p is negative
+				temp = Divisor; //add divisor
+			else
+				temp = ~Divisor+1; //subtract divisor
 
-     if( ready ) begin
+			//this will do the appropriate add or subtract
+			//depending on the value of temp
+			p = p + temp;
 
-        bit = 6'd32;
-        quotient = 0;
-        quotient_temp = 0;
-        dividend_copy = (!sign || !dividend[31]) ? {32'd0,dividend} : {32'd0,~dividend + 1'b1};
-        divider_copy = (!sign || !divider[31]) ? {1'b0,divider,31'd0} : {1'b0,~divider + 1'b1,31'd0};
+			//Check the new value of p
+			if( p[63] ) // if p is negative
+				a = a | 0; //no change to quotient
+			else
+				a = a | 1; 
+		end
 
-        negative_output = sign && ((divider[31] && !dividend[31]) || (!divider[31] && dividend[31]));  
-     end 
-     else if ( bit > 0 ) begin
-
-        diff = dividend_copy - divider_copy;
-
-        quotient_temp = quotient_temp << 1;
-
-        if( !diff[63] ) begin
-
-           dividend_copy = diff;
-           quotient_temp[0] = 1'd1;
-
-        end
-
-        quotient = (!negative_output) ? quotient_temp : ~quotient_temp + 1'b1;
-
-        divider_copy = divider_copy >> 1;
-        bit = bit - 1'b1;
-
-     end
+		//Correction is needed if remainder is negative
+		if( p[63] ) //if p is negative
+			p = p + Divisor;
+	end
+				
 endmodule
 
-module non_restoring_divider_tb;
+module non_restoring_div_tb;
+	reg clk, reset;
+	reg [63:0] dividend, divisor;
+	wire [63:0] quotient, remainder;
 
-	// Inputs
-	reg [31:0] dividend;
-	reg [31:0] divider;
-	reg sign;
-	reg clk;
+	non_restoring_div divider(clk, reset, dividend, divisor, quotient, remainder);
 
-	// Outputs
-	wire ready;
-	wire [31:0] quotient;
-	wire [31:0] remainder;
-	
-	// Variables
-	integer i ; 
+	initial
+		forever #1 clk = ~clk;
 
-	// Instantiate the Unit Under Test (UUT)
-	non_restoring_divider uut (.ready(ready), .quotient(quotient), .remainder(remainder), .dividend(dividend), .divider(divider), .sign(sign), .clk(clk));
+	initial
+		$monitor("%0d / %0d: q = %0d, r = %0d", dividend, divisor, quotient, remainder);
 
-	initial begin
-	//Check for unsigned division
-	clk = 0;
-	dividend = 32'd4;
-	divider = 32'd2;
-	sign = 0;
-	for(i=0;i<66;i=i+1)
+	initial
 	begin
-	clk = ~clk;
-	#100;
-	end
+		clk = 0;
+		reset = 0;
+
+		#1;
+		reset = 1;
+		dividend = 87;
+		divisor = 5;
+
+		#5;
+		dividend = 59;
+		divisor = 20;
+
+		#5;
+		dividend = 64'hFFFF_FFFF_FFFF_FFFF;
+		divisor = 2;
+
+		#5;
+		dividend = 32'h1234_5678;
+		divisor = 1;
+
+		#5;
+		divisor = dividend;
 	
-	//To check for signed division
-	dividend = 32'd8;
-	divider = 32'd2;
-	sign = 1;
-	for(i=0;i<66;i=i+1)
-	begin
-	clk = ~clk;
-	#100;
+		#5;
+		$finish;
 	end
-	
-	//To check for remainder 
-	dividend = 32'd16;
-	divider = 32'd5;
-	sign = 0;
-	for(i=0;i<66;i=i+1)
-	begin
-	clk = ~clk;
-	#100;
-	end
-	
-	end
-	    
+
 endmodule
