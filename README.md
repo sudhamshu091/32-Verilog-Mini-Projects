@@ -6,6 +6,6 @@ Dual Address RAM
 ![](dual_address_ram/dual_address_ram2.jpg)
 ![](dual_address_ram/dual_address_ram3.jpg)
 Restoring and Non Restoring Division
-![](Restoring-and-Non-Restoring-Division/Restoring-Division-Radix-2.jpg)
-![](Restoring and Non Restoring Division/Restoring Division Radix 4.jpg)
-![](Restoring and Non Restoring Division/Non Restoring Division Radix 2.jpg)
+![](Restoring%20and%20Non%20Restoring%20Division/Non%20Restoring%20Division%20Radix%202.jpg)
+![](Restoring%20and%20Non%20Restoring%20Division/Restoring%20Division%20Radix%202.jpg)
+![](Restoring%20and%20Non%20Restoring%20Division/Restoring%20Division%20Radix%204.jpg)
