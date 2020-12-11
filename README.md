@@ -1,11 +1,11 @@
 # Verilog
-CRC Coding
+CRC Coding                                                          
 [CRC_16_parallel](CRC%20Coding/CRC_16_parallel)
 ![](CRC%20Coding/CRC_16_parallel/CRC_16_parallel.jpg)
 [CRC_16_serial](CRC%20Coding/CRC_16_serial)
 ![](CRC%20Coding/CRC_16_serial/CRC_16_serial.jpg)
 [CRC_32_parallel](CRC%20Coding/CRC_32_parallel)
-![](CRC%20Coding/CRC_16_parallel/CRC_32_parallel.jpg)
+![](CRC%20Coding/CRC_32_parallel/CRC_32_parallel.jpg)
 [CRC_32_serial](CRC%20Coding/CRC_32_serial)
 ![](CRC%20Coding/CRC_32_serial/CRC_32_serial.jpg)
 BCD Adder
