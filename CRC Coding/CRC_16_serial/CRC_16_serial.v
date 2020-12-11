@@ -50,7 +50,7 @@ always@ (posedge clk or negedge rst)//whenever the clk positive trigger or rst n
  crc_reg[15:0] <= 16'b0000_0000_0000_0000; 
  end
  compute:begin 
- //Produces a polynthic x^16+x^15^x^2+1 
+ //Produces a polynomial x^16+x^15+x^2+1 
  crc_reg[0] <= crc_reg[15] ^ crc_in; 
  crc_reg[1] <= crc_reg[0]; 
  crc_reg[2] <= crc_reg[1] ^ crc_reg[15] ^ crc_in; 
