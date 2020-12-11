@@ -32,7 +32,7 @@ assign next_crc_reg[8] = crc_in[1] ^ crc_in[0] ^ crc_reg[15] ^ crc_reg[14]
 assign next_crc_reg[9] = crc_in[0] ^ crc_reg[15] ^ crc_reg[1]; 
 assign next_crc_reg[14:10] = crc_reg[6:2]; 
 assign next_crc_reg[15] = (^crc_in[7:0]) ^ (^crc_reg[15:7]); 
-always@(posedge clk) //؂྽ clk ҅ጔ᝻ว൩୺Չ 
+always@(posedge clk) //
 begin 
 case(state) //
  idle:begin // 
