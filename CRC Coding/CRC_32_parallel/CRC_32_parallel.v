@@ -1,5 +1,5 @@
 //
-module CRC_32_paraller(clk,rst,load,d_finish,crc_in,crc_out); 
+module CRC_32_parallel(clk,rst,load,d_finish,crc_in,crc_out); 
 input clk; //
 input rst; //
 input load; //
