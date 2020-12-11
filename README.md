@@ -13,3 +13,5 @@ Universal Shift Register
 ![](Universal_Shift_Register/Universal_shift_reg.jpg)
 Barrel Shifter 8bit
 ![](Barrel%20Shifter/barrel_shifter_8bit.jpg)
+Booth Multiplier
+![](Booth%20Multiplication/booth_algorithm.jpg)
