@@ -1,4 +1,6 @@
 # Verilog
+CRC Coding
+![[CRC_16_parallel](CRC%20Coding/CRC_16_parallel)](CRC%20Coding/CRC_16_parallel/CRC_16_parallel.jpg)
 BCD Adder
 ![](bcd_adder/bcd_adder.jpg)
 Dual Address RAM 
