@@ -9,3 +9,5 @@ Restoring and Non Restoring Division
 ![](Restoring%20and%20Non%20Restoring%20Division/Non%20Restoring%20Division%20Radix%202.jpg)
 ![](Restoring%20and%20Non%20Restoring%20Division/Restoring%20Division%20Radix%202.jpg)
 ![](Restoring%20and%20Non%20Restoring%20Division/Restoring%20Division%20Radix%204.jpg)
+Universal Shift Register
+![](Universal_Shift_Register/Universal_shift_reg.jpg)
