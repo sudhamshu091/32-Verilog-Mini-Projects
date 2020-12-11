@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    01:49:51 04/04/2016 
-// Design Name: 
-// Module Name:    Mux_8_to_1 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+
 module Mux_8_to_1(Mux_Out , S , in0 , in1 , in2 , in3 , in4 , in5 , in6 , in7);
 
 output reg Mux_Out;
