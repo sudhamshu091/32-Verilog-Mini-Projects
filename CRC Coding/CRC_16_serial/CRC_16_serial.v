@@ -1,8 +1,8 @@
 //The announcement of the module CRC_16_serial 
 //Module function: The module is a coding circuit of crc-16 check code, which uses a serial linear shift stage
 module CRC_16_serial(clk,rst,load,d_finish,crc_in,crc_out); 
-input clk; //Enter the signal
-input rst; //Reset the signal
+input clk; //Clk signal
+input rst; //Reset signal
 input load; //Start encoding the signal
 input d_finish; //Encode the end signal
 input crc_in; //The word input to be encoded
