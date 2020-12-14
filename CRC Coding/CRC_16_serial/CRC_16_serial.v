@@ -1,4 +1,4 @@
-//The announcement of the module CRC_16_serial 
+//module CRC_16_serial 
 //Module function: The module is a coding circuit of crc-16 check code, which uses a serial linear shift stage
 module CRC_16_serial(clk,rst,load,d_finish,crc_in,crc_out); 
 input clk; //Clk signal
