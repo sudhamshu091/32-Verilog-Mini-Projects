@@ -24,3 +24,5 @@ CRC Coding
 ![](Barrel%20Shifter/barrel_shifter_8bit.jpg)
 [Booth Multiplier](/Booth%20Multiplication)
 ![](Booth%20Multiplication/booth_algorithm.jpg)
+[32 Bit Adder](32%20bit%20adder)
+![](32%20bit%20adder/32%20bit%20adder.jpg)
