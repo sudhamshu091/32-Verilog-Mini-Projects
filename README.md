@@ -1,4 +1,6 @@
 # Verilog
+[IEEE 754 Multiplication](Floating%20Point%20IEEE%20754%20Multiplication)
+![](Floating%20Point%20IEEE%20754%20Multiplication/IEEE_754_Multiplication.jpg)
 CRC Coding                                                          
 [CRC_16_parallel](CRC%20Coding/CRC_16_parallel)
 ![](CRC%20Coding/CRC_16_parallel/CRC_16_parallel.jpg)
