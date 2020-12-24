@@ -7,7 +7,7 @@ def ieee754(flt):
     b = bitstring.BitArray(float=flt, length=32)
     return b
 
-with open("TestVectorDivision", "w") as f:
+with open("Test.txt", "w") as f:
 
     for i in range(iteration):
         a = ieee754(random.uniform(-span, span))
