@@ -16,6 +16,8 @@ CRC Coding
 ![](CRC%20Coding/CRC_32_serial/CRC_32_serial.jpg)
 [BCD Adder](/bcd_adder)
 ![](bcd_adder/bcd_adder.jpg) 
+[Dual Address ROM](/dual_address_rom)
+![](dual_address_rom/dual_address_rom.jpg)
 [Dual Address RAM](/dual_address_ram)
 ![](dual_address_ram/dual_address_ram1.jpg)
 ![](dual_address_ram/dual_address_ram2.jpg)
