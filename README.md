@@ -1,4 +1,4 @@
-# Verilog
+# 32 Verilog Mini Projects
 [IEEE 754 Division](Floating%20Point%20IEEE%20754%20Division/division.v)
 ![](Floating%20Point%20IEEE%20754%20Division/IEEE_754_Division.jpg)
 [IEEE 754 Addition Subtraction](Floating%20Point%20IEEE%20754%20Addition%20Subtraction/Addition_Subtraction.v)
