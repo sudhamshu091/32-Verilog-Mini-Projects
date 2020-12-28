@@ -34,3 +34,7 @@ CRC Coding
 ![](Booth%20Multiplication/booth_algorithm.jpg)
 [32 Bit Adder](32%20bit%20adder)
 ![](32%20bit%20adder/32%20bit%20adder.jpg)
+[Mealy State Machine for sequence detection](Mealy%20and%20Moore%20State%20Machine%20Implementation%20of%20Sequence%20Detector)
+![](Mealy%20and%20Moore%20State%20Machine%20Implementation%20of%20Sequence%20Detector/mealy.jpg)
+[Moore State Machine for sequence detection](Mealy%20and%20Moore%20State%20Machine%20Implementation%20of%20Sequence%20Detector)
+![](Mealy%20and%20Moore%20State%20Machine%20Implementation%20of%20Sequence%20Detector/moore.jpg)
