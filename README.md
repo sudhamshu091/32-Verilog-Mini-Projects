@@ -38,3 +38,5 @@ CRC Coding
 ![](Mealy%20and%20Moore%20State%20Machine%20Implementation%20of%20Sequence%20Detector/mealy.jpg)
 [Moore State Machine for sequence detection](Mealy%20and%20Moore%20State%20Machine%20Implementation%20of%20Sequence%20Detector)
 ![](Mealy%20and%20Moore%20State%20Machine%20Implementation%20of%20Sequence%20Detector/moore.jpg)
+[Array Multiplier](Array%20Multiplier)
+![](Array%20Multiplier/array_multiplier.jpg)
