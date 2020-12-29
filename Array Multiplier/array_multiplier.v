@@ -99,3 +99,40 @@ module ha(a,b,s,c);
     assign s = a^b;
     assign c = a&b;
 endmodule
+
+module array16_tb;
+  wire [31:0] c;
+  reg [15:0] a, b;
+ 
+   array16 juut(a, b, c);
+ 
+  initial
+  begin
+    $display("Result a X b = c ");
+    a = 1; b = 1; #10;
+    $display("a=%d, b=%d, c=%d",a,b,c);
+    a= 2; b= 2; #20;
+      $display("a=%d,b=%d,c=%d",a,b,c);
+    a=1; b= 100; #20;
+      $display("a=%d,b=%d,c=%d",a,b,c);
+    a= 4; b= 6; #20;
+      $display("a=%d,b=%d,c=%d",a,b,c);
+    a= 3; b= 2; #20;
+      $display("a=%d,b=%d,c=%d",a,b,c);
+    a= 8; b= 20; #20;
+      $display("a=%d,b=%d,c=%d",a,b,c);
+    a= 9; b= 2; #20;
+      $display("a=%d,b=%d,c=%d",a,b,c);
+    a= 4; b= 4; #20;
+      $display("a=%d,b=%d,c=%d",a,b,c);
+    a= 76; b= 24; #20;
+      $display("a=%d,b=%d,c=%d",a,b,c);
+    a= 77; b= 77; #20;
+      $display("a=%d,b=%d,c=%d",a,b,c);
+    a= 222; b= 222; #20;
+      $display("a=%d,b=%d,c=%d",a,b,c);
+    a= 11; b= 11; #20;
+      $display("a=%d,b=%d,c=%d",a,b,c);
+  end
+ 
+endmodule
