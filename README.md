@@ -40,3 +40,5 @@ CRC Coding
 ![](Mealy%20and%20Moore%20State%20Machine%20Implementation%20of%20Sequence%20Detector/moore.jpg)
 [Array Multiplier](Array%20Multiplier)
 ![](Array%20Multiplier/array_multiplier.jpg)
+[Carry Skip Adder](Carry%20Skip%20and%20Carry%20Save%20Adder)
+![](Carry%20Skip%20and%20Carry%20Save%20Adder/Carry_Skip_Adder.jpg)
