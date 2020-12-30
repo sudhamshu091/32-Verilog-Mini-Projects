@@ -396,6 +396,7 @@ module division_tb;
 			if (res[31:12] != expected_res[31:12])
 				begin
 					$fdisplay (mcd,"Test Failed Expected res = %h,Obtained res = %h,Test Number-> %d",expected_res,res,test_n);
+					$display ("Zero Division Error or some other error",mcd,"Test Failed Expected res = %h,Obtained res = %h,Test Number-> %d",expected_res,res,test_n);
 					error = error + 1'b1;
 				end
 			
