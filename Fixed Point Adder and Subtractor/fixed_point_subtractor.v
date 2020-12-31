@@ -1,4 +1,4 @@
-module qadd #(
+module qsubtract #(
 	//Parameterized values
 	parameter Q = 15,
 	parameter N = 32
