@@ -31,7 +31,7 @@ CRC Coding
 [Barrel Shifter 8bit](/Barrel%20Shifter)
 ![](Barrel%20Shifter/barrel_shifter_8bit.jpg)
 [Booth Multiplier](/Booth%20Multiplication)
-![](Booth%20Multiplication/booth_algorithm.jpg)
+![](Booth%20Multiplication/booth_multiplication.jpg)
 [32 Bit Adder](32%20bit%20adder)
 ![](32%20bit%20adder/32%20bit%20adder.jpg)
 [Mealy State Machine for sequence detection](Mealy%20and%20Moore%20State%20Machine%20Implementation%20of%20Sequence%20Detector)
