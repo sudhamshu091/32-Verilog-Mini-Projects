@@ -196,7 +196,8 @@ reg signed [7:0] a,b;
 
 boothmul my_booth(.a(a),.b(b),.c(z));
 
-initial begin $dumpfile("tb_boothsalgo.vcd"); $dumpvars(0,tb); end
+initial begin 
+end
 
 initial
 begin
