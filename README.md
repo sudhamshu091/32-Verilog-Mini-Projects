@@ -48,3 +48,5 @@ CRC Coding
 ![](Carry%20Select%20and%20Carry%20Look%20Ahead%20Adder/carry_look_ahead_adder.jpg)
 [Carry Save Adder](Carry%20Skip%20and%20Carry%20Save%20Adder)
 ![](Carry%20Skip%20and%20Carry%20Save%20Adder/carry_save_adder.jpg)
+[Complex Multiplier](Complex%20Multiplier)
+![](Complex%20Multiplier/complex_multiplication.jpg)
