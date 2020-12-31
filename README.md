@@ -50,3 +50,5 @@ CRC Coding
 ![](Carry%20Skip%20and%20Carry%20Save%20Adder/carry_save_adder.jpg)
 [Complex Multiplier](Complex%20Multiplier)
 ![](Complex%20Multiplier/complex_multiplication.jpg)
+[Logarithm Implementation](Logarithm%20Implementation)
+![](Logarithm%20Implementation/log.jpg)
