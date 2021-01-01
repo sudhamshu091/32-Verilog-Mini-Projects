@@ -1,4 +1,3 @@
-
 module traffic_light (clk, Sa, Sb, Ra, Rb, Ga, Gb, Ya, Yb);
 input clk;
 input Sa;
@@ -43,7 +42,7 @@ begin
  nextstate = 0;
  case (state)
  0, 1, 2, 3, 4 :
- beginGa_tmp = 1'b1 ;
+ begin Ga_tmp = 1'b1 ;
  Rb_tmp = 1'b1 ;
  nextstate = state + 1 ;
  end
@@ -70,7 +69,7 @@ begin
  begin
  Ra_tmp = 1'b1 ;
  Gb_tmp = 1'b1 ;
- nextstate 5 state + 1 ;
+ nextstate = state + 1 ;
  end
  11 :
  begin
@@ -92,7 +91,7 @@ begin
  nextstate = 0 ;
  end
  endcase
-endalways @(posedge clk)
+end always @(posedge clk)
 begin
  state <= nextstate ;
 end
