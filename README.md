@@ -52,3 +52,5 @@ CRC Coding
 ![](Complex%20Multiplier/complex_multiplication.jpg)
 [Logarithm Implementation](Logarithm%20Implementation)
 ![](Logarithm%20Implementation/log.jpg)
+[Traffic_Light_Controller](Traffic%20Light%20Controller)
+![](Traffic%20Light%20Controller/traffic_light.jpg)
