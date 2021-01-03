@@ -1,7 +1,7 @@
 # 32 Verilog Mini Projects
 Implementing 32 Verilog Mini Projects.
 32 bit adder,
-Array Multiplie,
+Array Multiplier,
 Barrel Shifter,
 Binary Divider 16 by 8,
 Booth Multiplication,
