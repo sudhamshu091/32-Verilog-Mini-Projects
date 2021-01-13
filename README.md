@@ -89,3 +89,6 @@ CRC Coding
 ![](Traffic%20Light%20Controller/traffic_light.jpg)
 [Shift and Add Binary Multiplier](Shift%20and%20Add%20Binary%20Multiplier)
 ![](Shift%20and%20Add%20Binary%20Multiplier/shift%20and%20add%20multiplier.jpg)
+[Sequential Multiplier](Sequential%20Multiplier)
+![](Sequential%20Multiplier/sequential_multiplication1.jpg)
+![](Sequential%20Multiplier/sequential_multiplication2.jpg)
