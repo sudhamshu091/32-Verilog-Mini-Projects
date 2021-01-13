@@ -98,3 +98,10 @@ CRC Coding
 [Fixed Point Subtractor](Fixed%20Point%20Adder%20and%20Subtractor)
 ![](Fixed%20Point%20Adder%20and%20Subtractor/fixed_point_subtractor1.jpg)
 ![](Fixed%20Point%20Adder%20and%20Subtractor/fixed_point_subtractor2.jpg)
+[Fixed Point Multiplier](Fixed%20Point%20Multiplier%20and%20Divider)
+![](Fixed%20Point%20Multiplier%20and%20Divider/fixed_point_multiplier1.jpg)
+![](Fixed%20Point%20Multiplier%20and%20Divider/fixed_point_multiplier2.jpg)
+[Fixed Point Divider](Fixed%20Point%20Multiplier%20and%20Divider)
+![](Fixed%20Point%20Multiplier%20and%20Divider/fixed_point_divider1.jpg)
+![](Fixed%20Point%20Multiplier%20and%20Divider/fixed_point_divider2.jpg)
+
