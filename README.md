@@ -114,4 +114,6 @@ CRC Coding
 ![](Fixed%20Point%20Multiplier%20and%20Divider/fixed_point_divider2.jpg)
 [Fraction_Multiplier](Fraction%20Multiplier)
 ![](Fraction%20Multiplier/fraction_multiplication.jpg)
+[FIFO](FIFO)
+![](FIFO/fifo.jpg)
 
