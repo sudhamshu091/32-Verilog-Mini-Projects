@@ -112,4 +112,6 @@ CRC Coding
 [Fixed Point Divider](Fixed%20Point%20Multiplier%20and%20Divider)
 ![](Fixed%20Point%20Multiplier%20and%20Divider/fixed_point_divider1.jpg)
 ![](Fixed%20Point%20Multiplier%20and%20Divider/fixed_point_divider2.jpg)
+[Fraction_Multiplier](Fraction%20Multiplier)
+![](Fraction%20Multiplier/fraction_multiplication.jpg)
 
