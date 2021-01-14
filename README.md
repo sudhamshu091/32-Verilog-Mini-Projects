@@ -32,7 +32,7 @@ Universal_Shift_Register,
 BCD Adder,
 Dual Address RAM and
 Dual Address ROM<br>
-[I2C and SPI Protocols](I2C%20and%20SPI%20Protocols)
+[I2C and SPI Protocols](I2C%20and%20SPI%20Protocols)<br>
 [I2C Protocol](I2C%20and%20SPI%20Protocols/I2C)
 ![](I2C%20and%20SPI%20Protocols/I2C/I2C.jpg)
 [SPI Protocol](I2C%20and%20SPI%20Protocols/SPI)
