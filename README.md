@@ -32,6 +32,14 @@ Universal_Shift_Register,
 BCD Adder,
 Dual Address RAM and
 Dual Address ROM<br>
+[I2C and SPI Protocols](I2C%20and%20SPI%20Protocols)
+[I2C Protocol](I2C%20and%20SPI%20Protocols/I2C)
+![](I2C%20and%20SPI%20Protocols/I2C/I2C.jpg)
+[SPI Protocol](I2C%20and%20SPI%20Protocols/SPI)
+[SPI_Master](I2C%20and%20SPI%20Protocols/SPI/Master.jpg)
+![](I2C%20and%20SPI%20Protocols/SPI/Master.jpg)
+[SPI_Loopback](I2C%20and%20SPI%20Protocols/SPI/Loopback.jpg)
+![](I2C%20and%20SPI%20Protocols/SPI/Loopback.jpg)
 [IEEE 754 Division](Floating%20Point%20IEEE%20754%20Division/division.v)
 ![](Floating%20Point%20IEEE%20754%20Division/IEEE_754_Division.jpg)
 [IEEE 754 Addition Subtraction](Floating%20Point%20IEEE%20754%20Addition%20Subtraction/Addition_Subtraction.v)
