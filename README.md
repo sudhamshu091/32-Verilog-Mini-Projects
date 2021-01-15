@@ -125,3 +125,5 @@ CRC Coding
 ![](Modified%20Booth%20Algorithm/modified_booth.jpg)
 [Pipelined Multiplier](Pipelined%20Multiplier)
 ![](Pipelined%20Multiplier/pipelined%20multiplier.jpg)
+[High Radix Multiplication](High%20Radix%20Multiplier)
+![](High%20Radix%20Multiplier/multiplier.jpg)
