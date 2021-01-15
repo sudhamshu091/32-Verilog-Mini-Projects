@@ -117,6 +117,6 @@ CRC Coding
 [FIFO](FIFO)
 ![](FIFO/fifo.jpg)
 [LFSR and CFSR](LFSR%20and%20CFSR)
-[LFSR}(LFSR%20and%20CFSR/LFSR)
+[LFSR](LFSR%20and%20CFSR/LFSR)
 ![](LFSR%20and%20CFSR/LFSR/lfsr.jpg)
 
