@@ -119,4 +119,6 @@ CRC Coding
 [LFSR and CFSR](LFSR%20and%20CFSR)
 [LFSR](LFSR%20and%20CFSR/LFSR)
 ![](LFSR%20and%20CFSR/LFSR/lfsr.jpg)
+[CFSR](LFSR%20and%20CFSR/CFSR)
+![](LFSR%20and%20CFSR/CFSR/cfsr.jpg)
 
