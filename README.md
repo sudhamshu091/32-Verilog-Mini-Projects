@@ -116,4 +116,7 @@ CRC Coding
 ![](Fraction%20Multiplier/fraction_multiplication.jpg)
 [FIFO](FIFO)
 ![](FIFO/fifo.jpg)
+[LFSR and CFSR](LFSR%20and%20CFSR)
+[LFSR}(LFSR%20and%20CFSR/LFSR)
+![](LFSR%20and%20CFSR/LFSR/lfsr.jpg)
 
