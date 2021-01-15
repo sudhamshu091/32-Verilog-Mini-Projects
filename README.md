@@ -121,4 +121,6 @@ CRC Coding
 ![](LFSR%20and%20CFSR/LFSR/lfsr.jpg)
 [CFSR](LFSR%20and%20CFSR/CFSR)
 ![](LFSR%20and%20CFSR/CFSR/cfsr.jpg)
+[Modified Booth Multiplication](Modified%20Booth%20Algorithm)
+![](Modified%20Booth%20Algorithm/modified_booth.jpg)
 
