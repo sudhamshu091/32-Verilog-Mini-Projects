@@ -1,5 +1,5 @@
 
-module DiceGame (Rb, Reset, CLK, Sum, Roll, Win, Lose);
+module DiceGame (Rb,Reset, CLK, Sum, Roll, Win, Lose);
  input Rb; 
  input Reset; 
  input CLK;
