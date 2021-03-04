@@ -6,7 +6,7 @@ module bcd_adder(a,b,cin,sum,cout);
     reg [4:0] temp;
     reg [3:0] sum;
     reg cout;  
-
+	
     always @(a,b,cin)
     begin
         temp = a+b+cin; 
