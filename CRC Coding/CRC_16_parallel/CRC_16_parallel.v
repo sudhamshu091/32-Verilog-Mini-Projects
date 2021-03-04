@@ -1,4 +1,5 @@
 module CRC_16_parallel(clk,rst,load,d_finish,crc_in,crc_out); 
+
 input clk; 
 input rst; 
 input load; 
@@ -14,6 +15,7 @@ parameter idle = 2'b00; //
 parameter compute = 2'b01;//
 parameter finish = 2'b10; //
 //
+
 assign next_crc_reg[0] = (^crc_in[7:0]) ^ (^crc_reg[15:8]); 
 assign next_crc_reg[1] = (^crc_in[6:0]) ^ (^crc_reg[15:9]); 
 assign next_crc_reg[2] = crc_in[7] ^ crc_in[6] ^ crc_reg[9] ^ crc_reg[8]; 
