@@ -1,37 +1,6 @@
 # 32 Verilog Mini Projects
 Implementing 32 Verilog Mini Projects.
-32 bit adder,
-Array Multiplier,
-Barrel Shifter,
-Binary Divider 16 by 8,
-Booth Multiplication,
-CRC Coding,
-Carry Select and Carry Look Ahead Adder,
-Carry Skip and Carry Save Adder,
-Complex Multiplier,
-Dice Game,
-FIFO,
-Fixed Point Adder and Subtractor,
-Fixed Point Multiplier and Divider,
-Floating Point IEEE 754 Addition Subtraction,
-Floating Point IEEE 754 Division,
-Floating Point IEEE 754 Multiplication,
-Fraction Multiplier,
-High Radix Multiplier,
-I2C and SPI Protocols,
-LFSR and CFSR,
-Logarithm Implementation,
-Mealy and Moore State Machine Implementation of Sequence Detector,
-Modified Booth Algorithm,
-Pipelined Multiplier,
-Restoring and Non Restoring Division,
-Sequential Multiplier,
-Shift and Add Binary Multiplier,
-Traffic Light Controller,
-Universal_Shift_Register,
-BCD Adder,
-Dual Address RAM and
-Dual Address ROM<br>
+
 [I2C and SPI Protocols](I2C%20and%20SPI%20Protocols)<br>
 [I2C Protocol](I2C%20and%20SPI%20Protocols/I2C)
 ![](I2C%20and%20SPI%20Protocols/I2C/I2C.jpg)
