@@ -175,7 +175,7 @@ assign {enable,op_a,op_b} = (a[30:0] < b[30:0]) ? {1'b1,b,a} : {1'b0,a,b};						
 assign exp_a = op_a[30:23];
 assign exp_b = op_b[30:23];
 
-assign exception = (&op_a[30:23]) | (&op_b[30:23]);										// Exception flag sets 1 if either one of the exponent is 255.
+assign exception = (&op_a[30:23]) | (&op_b[30:23]) | (add_sub_signal ? ((|(op_a[30:0] ^ op_b[30:0])) || ~(op_a[31] ^ op_b[31])) : |(op_a ^ op_b));										// Exception flag sets 1 if either one of the exponent is 255.
 
 assign output_sign = add_sub_signal ? enable ? !op_a[31] : op_a[31] : op_a[31] ;
 
