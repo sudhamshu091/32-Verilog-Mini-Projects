@@ -8,7 +8,7 @@ output crc_out; //
 reg crc_out; //
 reg [31:0] crc_reg; //
 reg [1:0] state; //
-reg [4:0] count; //
+reg [5:0] count; //
 parameter idle = 2'b00; //
 parameter compute = 2'b01; //
 parameter finish = 2'b10; //
