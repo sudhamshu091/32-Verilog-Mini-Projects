@@ -36,11 +36,11 @@ input   [31:0]    dataIn;
 
 output reg [31:0] dataOut; // internal registers 
 
-reg [2:0]  Count = 0; 
+reg [3:0]  Count = 0;
 
 reg [31:0] FIFO [0:7]; 
 
-reg [2:0]  readCounter = 0, 
+reg [3:0]  readCounter = 0,
 
            writeCounter = 0; 
 
