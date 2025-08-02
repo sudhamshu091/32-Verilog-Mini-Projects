@@ -17,19 +17,19 @@ endmodule
 module nand2 (input wire i0, i1, output wire o);
    wire t;
    and2 and2_0 (i0, i1, t);
-   invert invert_0 (t, o);
+   invert invert_0 (o, t);
 endmodule
 
 module nor2 (input wire i0, i1, output wire o);
    wire t;
    or2 or2_0 (i0, i1, t);
-   invert invert_0 (t, o);
+   invert invert_0 (o, t);
 endmodule
 
 module xnor2 (input wire i0, i1, output wire o);
    wire t;
    xor2 xor2_0 (i0, i1, t);
-   invert invert_0 (t, o);
+   invert invert_0 (o, t);
 endmodule
 
 module and3 (input wire i0, i1, i2, output wire o);
