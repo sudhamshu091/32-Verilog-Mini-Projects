@@ -14,7 +14,7 @@ counter u5 (t,l,clk);
 assign valid=l;
 adder u3 (y,po,c,s);
 s3 u4 (clk,v1,{c,s[7:1]},l,po);
- s4 e1 (clk,v,s[0],l,lo);
+ s4 e1 (clk,v1,s[0],l,lo);
 assign op={po,lo};
 assign v1= reset|load;
 assign t=reset|load;
