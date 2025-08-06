@@ -68,14 +68,17 @@ always@(posedge clk or negedge rst)//
  case(state) 
  idle:begin // 
  crc_reg[15:0] <= 16'b0000_0000_0000_0000; 
+ count <= 2'b00; // Reset count in idle
  end 
  compute:begin // 
  crc_reg[15:0]<= next_crc_reg[15:0]; 
  crc_out[7:0] <= crc_in[7:0]; 
+ count <= 2'b00; // Reset count in compute
  end 
  finish:begin //
  crc_reg[15:0] <= {crc_reg[7:0],8'b0000_0000}; 
  crc_out[7:0] <= crc_reg[15:8]; 
+ count <= count + 1'b1; // Increment count in finish
  end 
  endcase 
 endmodule 
